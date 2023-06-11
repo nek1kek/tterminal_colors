@@ -1,4 +1,3 @@
-
 #terminal_colors
 lets give more colors for terminal
 

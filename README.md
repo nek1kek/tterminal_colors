@@ -18,8 +18,9 @@ rich.print_json(json_string, indent=4) # indent - otstup
 
 # in pip u can use  `termcolor` 
 ```python
+from termcolor import colored, cprint
+
 text = colored('Hello, Habr!', 'red', attrs=['blink'])
 print(text)
 cprint('Hello, Habr!', 'green', 'on_red')
-https://www.pvsm.ru/python/364497
 ```

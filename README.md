@@ -15,3 +15,11 @@ use `rich` - library for colorize json
 json_string = '{"is_color": true}'
 rich.print_json(json_string, indent=4) # indent - otstup
 ```
+
+# in pip u can use  `termcolor` 
+```python
+text = colored('Hello, Habr!', 'red', attrs=['blink'])
+print(text)
+cprint('Hello, Habr!', 'green', 'on_red')
+https://www.pvsm.ru/python/364497
+```
